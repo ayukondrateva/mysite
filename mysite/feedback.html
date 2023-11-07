@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your feedback</title>
+</head>
+<body bgcolor="black" style="color: white;">
+<p align="right"><font face="cursive"><a href="home.html" style="color: white; text-decoration: none;">Home</a>
+
+
+  <a href="Biography.html" style="color: white;  text-decoration: none;">Biography</a>
+<a href="skills.html" style="color: white;text-decoration: none;">Skills</a>
+    <a href="feedback.html" style="color: white;">Your feedback</a>
+</font></p>
+<h1 align="center"><font color="white" face="cursive">YOUR FEEDBACK</font></h1>
+
+<table border="5"
+       align="center"
+       width="500"
+       cellpadding="25">
+    <tr>
+        <td>
+<form action="https://browser.ru/" method="get">
+
+<p align="left"><font face="cursive" size="5">Имя
+    <input type="text" name="username"  placeholder="Введите имя" required></font></p>
+    <p align="left"><font face="cursive" size="5">Фамилия
+        <input type="text" name="usersurname" placeholder="Введите Фамилию" required></font></p>
+ <p align="left"><font face="cursive" size="5">Мобильный телефон
+<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="9**-***-****" required></font></p>
+    <p align="left"><font face="cursive" size="5">Электронная почта
+<input type="email" name="email" placeholder="@email" required></font></p>
+    <p align="left"><font face="cursive" size="5">Дата отправки
+    <input type="date" name="user" value="2023-11-08"></font></p>
+     <p align="left"> <font face="cursive" size="5">Ваши комментарии
+        <textarea placeholder="Введите текст" name="feedback"></textarea></font>
+    </p>
+     <p align="center"><input type="reset">
+    <input type="submit" name="submit" value="Отправка"></p>
+
+</form>
+</td></tr></table>
+<h1 align="center"><font color="white" face="cursive">THE 2ND ONE</font></h1>
+<table
+border="5"
+       align="center"
+       width="500"
+       cellpadding="25">
+    <tr>
+        <td>
+          <form action="" method="get">
+
+              <p align="left"><font face="cursive" size="5">Имя
+<input type="text" name="username"  placeholder="Введите имя" required></font></p>
+    <p align="left"> <font face="cursive" size="5">Фамилия
+        <input type="text" name="usersurname" placeholder="Введите Фамилию" required></font></p>
+              <p align="left">
+                  <font face="cursive" size="5">Пол</font>
+                  <br> <input type="radio" name="gender" value="women" checked /><font face="cursive">Женский</font>
+                <br>  <input type="radio" name="gender" value="men" /><font face="cursive"> Мужской</font></p>
+              <p align="left">
+                <font face="cursive" size="5">Дата рождения</font>
+                  <input type="date" name="user">
+             <p align="left">
+                    <font face="cursive" size="5">Возраст</font>
+                  <input type="number" name="number" size="10" value="25" required>
+              </p>
+<p align="left">
+   <font face="cursive" size="5"> Способы получения информации </font>
+    <br> <input type="checkbox" name="notifications" checked><font face="cursive">Почта</font>
+    <br> <input type="checkbox" name="notifications"><font face="cursive">Электронная почта</font>
+    <br> <input type="checkbox" name="notifications"><font face="cursive">Мобильный телефон</font>
+    <br> <input type="checkbox" name="notifications"><font face="cursive">Личный кабинет</font>
+
+</p>
+<p align="left"><font face="cursive" size="5">
+    Дополнительная информация
+    <textarea placeholder="Введите текст" name="feedback"></textarea></font>
+</p>
+              <p align="left"><font face="cursive" size="5">Пароль
+                  <input type="password" name="password" size="16" required>
+              </font> </p>
+              <p>
+                  <input type="hidden" name="just for code">
+              </p>
+              <p align="center"><input type="reset">
+    <input type="submit" name="submit" value="Отправка"></p>
+
+                           </form></td>
+    </tr>
+</table>
+
+</body>
+</html>
